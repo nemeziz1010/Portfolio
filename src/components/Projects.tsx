@@ -11,8 +11,8 @@ const Projects = () => {
   const projects = [
     {
       title: "StockFolio",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order processing.",
-      // 2. Use the imported image variables here
+      description: "A full-stack financial intelligence tool with React, Node.js, and AI integration. Features include automated news scraping, GPT-4 powered sentiment analysis, and personalized portfolio filtering with Zerodha Kite Connect API support.",
+     
       image: stockfolioImg,
       technologies: ["React", "Node.js", "MongoDB", "Kite Connect API"],
       liveUrl: "https://stock-folio-nine.vercel.app/",
