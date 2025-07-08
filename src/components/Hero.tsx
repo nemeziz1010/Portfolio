@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowDown, Download, Code, Palette } from 'lucide-react';
 
-import profileImg from '../../images/profile.jpg';
+import profileImg from '../../images/profile.png';
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
