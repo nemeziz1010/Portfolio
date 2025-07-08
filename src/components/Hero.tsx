@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowDown, Download, Code, Palette } from 'lucide-react';
 
+import profileImg from '../../images/profile.jpg';
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -77,8 +78,8 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-orange-500/20 to-red-500/20 blur-xl transform scale-110"></div>
                 
                 <img
-                  src="../../images/profile.JPG"
-                  alt="Alex Developer"
+                  src={profileImg}
+                  alt="Mithilesh"
                   className="relative w-48 h-60 sm:w-56 sm:h-72 lg:w-80 lg:h-96 object-cover shadow-2xl transform hover:scale-105 transition-transform duration-500 border-4 border-gray-800"
                 />
                 
