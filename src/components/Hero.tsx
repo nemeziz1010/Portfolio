@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown, Download, Code, Palette } from 'lucide-react';
+const resumeLink = import.meta.env.VITE_RESUME_LINK;
 
 import profileImg from '../../images/profile.png'; 
 const Hero = () => {
@@ -61,7 +62,7 @@ const Hero = () => {
                   VIEW PROJECTS
                 </button>
                 <a
-                  href="https://drive.google.com/file/d/1bM5qNxVspbkHbj0GpEvSBQJGW-mSYR54/view?usp=sharing"
+                  href={resumeLink}
                   className="border-2 border-orange-500 text-orange-400 px-8 lg:px-10 py-3 lg:py-4 rounded-none font-black uppercase tracking-wider hover:bg-orange-500 hover:text-white transition-all duration-300 flex items-center justify-center gap-3 text-sm lg:text-base"
                 >
                   <Download size={18} />
