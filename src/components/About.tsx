@@ -33,7 +33,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div>
               <p className="text-base lg:text-lg text-gray-300 leading-relaxed mb-4 lg:mb-6 font-medium">
-                I'm a passionate full-stack developer with over 5 years of experience building impactful digital products. I specialize in transforming complex challenges into clean, intuitive, and user-focused solutions.
+                I'm a passionate full-stack developer who loves bringing ideas to life through code. I specialize in building clean, scalable, and user-focused web applications using modern technologies across the stack.
               </p>
               <p className="text-base lg:text-lg text-gray-300 leading-relaxed mb-4 lg:mb-6 font-medium">
                 When I’m not writing code, I enjoy exploring emerging technologies, contributing to open-source communities, and sharing insights with fellow developers.
